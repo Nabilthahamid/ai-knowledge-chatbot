@@ -1,0 +1,14 @@
+infra/ollama-runtime/
+**/.env
+**/.env.local
+**/.venv/
+**/__pycache__/
+**/.pytest_cache/
+frontend/node_modules/
+frontend/.next/
+backend/data/uploads/*
+!backend/data/uploads/.gitkeep
+*.log
+*.tsbuildinfo
+**/.env.*
+!**/.env.example
